@@ -1,0 +1,16 @@
+.contactsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+
+.noContactsMessage {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+  font-style: italic;
+  grid-column: 1 / -1; 
+}
